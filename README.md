@@ -1,6 +1,28 @@
 # SubscriptionApp
 
+This is a little companion app to my to-be-published blog in order to test AppSync subscriptions.
+
+You need to update the following section in `src/app/app.module.ts` with the values corresponding to your API
+
+```
+  'aws_appsync_graphqlEndpoint': 'https://xxx.appsync-api.us-east-1.amazonaws.com/graphql',
+  'aws_appsync_apiKey': 'da2-xxxxxxxxxxxxxxxxxxxxx',
+  'aws_appsync_region': 'us-east-1',
+``` 
+
+After that
+```
+npm install
+ng serve --open
+```
+
+and then you can test mutations and you'll see results.
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+
 
 ## Development server
 
